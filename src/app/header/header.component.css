@@ -1,0 +1,69 @@
+
+.mat-icon {
+  vertical-align: middle;
+}
+
+a {
+  padding: 5px 20px;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 10px 22px;
+  transition: all 0.2s ease;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  display: block;
+  border-radius: 28px;
+  background:#0f4c81;
+  width: 26px;
+  height: 26px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.5s ease;
+}
+.cta:hover {
+  color: #fff;
+}
+.cta:hover:before {
+  width: 80%;
+  background: #0f4c81;
+  color: #fff;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
+}
